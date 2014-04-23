@@ -1,0 +1,25 @@
+{
+  "name": "angular-app",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install": "napa",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "watchify app.js -o bundle.js",
+    "start": "beefy app.js:bundle.js --liv --cwd ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "watchify": "~0.5.4",
+    "browserify": "~3.24.1"
+  },
+  "napa": {
+    "angular": "angular/bower-angular",
+    "angular-route": "angular/bower-angular-route",
+    "angular-sanitize": "angular/bower-angular-sanitize",
+    "angular-resource": "angular/bower-angular-resource",
+    "angular-cookies": "angular/bower-angular-cookies"
+  }  
+}
