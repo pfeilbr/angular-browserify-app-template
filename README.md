@@ -1,4 +1,4 @@
-# Angular and Browserfy Base Template
+# Angular and Browserify Base Template
 
 Sourced from the [angular-and-browserify](http://ethanway.com/angular-and-browserify/) article
 
